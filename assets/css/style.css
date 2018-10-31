@@ -1,0 +1,27 @@
+.card-header{
+    background-color: #212529;
+    border-color: #32383e;
+    color: #fff;
+    font-style: bold;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+
+.tablecolumnheader{
+    font-weight: 200;
+}
+
+.input-group{
+    margin-bottom: 5px!important;
+}
+.btn{
+    margin-top: 10px!important;
+    margin-bottom: 50px!important;
+    width  : 150px!important;
+}
+
+
+
