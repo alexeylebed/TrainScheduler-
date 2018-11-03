@@ -215,6 +215,9 @@ function getNextArrival(){
     //Get next arrival in hours and minutes(HH:MM)
     var hours = Math.trunc(nextArrival/60);
     var minutes = nextArrival - hours*60;
+    if(hours > 24){
+      hours =  hours - 24;
+    }
     if(minutes < 10){
       minutes = '0' + minutes;
     }
